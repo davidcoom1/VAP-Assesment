@@ -1,0 +1,292 @@
+body {
+  font-family: Montserrat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  opacity: 0.975;
+}
+
+#title {
+  background-color: #339989;
+  color: #131515;
+}
+
+.container-fluid {
+  padding: 2% 5% 5%;
+}
+
+h1 {
+  font-family: "Montserrat-Black";
+  font-size: 2.5rem;
+  line-height: 1.5;
+  padding-left: 3.0rem;
+}
+
+h2 {
+  font-family: Montserrat-bold;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Montserrat-bold";
+}
+
+p {
+  color: White;
+}
+
+/* Navigation Bar */
+ 
+  .navbar {
+    padding: 0 0 1.5rem;
+  }
+
+  .navbar-brand {
+    font-family: Ubuntu;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+
+  .nav-item {
+    padding: 0 5px;
+  }
+
+  .nav-link {
+    font-size: 1.0rem;
+    font-family: Montserrat;
+  }
+
+ /* Features */ 
+
+  #features {
+    padding: 7% 15%;
+    font-size: 1.5rem;
+    background-color: black;
+    position: relative;
+    z-index: 1;
+  }
+
+  .feature-box {
+    text-align: center;
+    padding: 5%;
+  }
+
+  /* Dropdown Button */
+  .dropbtn {
+    background-color: #4CAF50;
+    color: Black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+/* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+  /* Sections */
+  #Society {
+    padding: 100px;
+    text-align: center;
+  }
+
+  #Explore {
+
+    background-color: #2fc4b2;
+    color: Black;
+
+    text-align: center;
+    padding: 5% 15%;
+  }
+
+  #SocialMedia {
+    background-color: #2fc4b2;
+    color: Black;
+
+    text-align: center;
+    padding: 5% 15%;
+  }
+#News {
+    background-color: white;
+     text-align: center;
+     padding: 7% 15%;
+  }
+/*footer section*/
+
+#Textbox {
+  background-color: #131515;
+  text-align: center-left;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding: 5%;
+  color: White;
+  width: 100%;
+  
+}
+
+.boxed {
+	padding-top: 50px;
+	padding-right: 30px;
+	padding-bottom: 50px;
+	padding-left: 80px;
+}
+
+.boxed2 {
+	margin-left: auto;
+	margin-right: auto;
+	width:50%;
+	align-content: center;
+	margin-bottom: 25px;
+}
+
+
+@media (max-width: 1028px) {
+
+#title {
+  text-align: center;
+}
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+
+.dropbtn {
+   
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  color: #ef8172;
+  margin-bottom: 1rem;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: #Black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ef8172;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: white;}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #339989;
+  color: white;
+  text-align: center;
+}
+
+
+table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+	table-layout: fixed;
+	width: 350px;  
+
+
+}
+  
+table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+  
+table tr:nth-child(even){
+    background-color: #339989;
+}
+  
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: cornflowerblue;
+    color: white;
+
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #339989;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #4CAF50;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: background-color: #131515;
+  padding: 20px;
+}

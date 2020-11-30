@@ -1,0 +1,173 @@
+#title {
+    background-color: #339989;
+    color: #131515;
+  }
+  
+  .container-fluid {
+    padding: 2% 5% 5%;
+  }
+  
+  h1 {
+    font-family: "Montserrat-Black";
+    font-size: 2.5rem;
+    line-height: 1.5;
+	color: white;
+    
+  }
+  
+  h2 {
+	  
+    text-align: left;
+    font-size: 2rem;
+    line-height: 1.5;
+	
+  }
+
+
+  
+  h3 {
+    font-family: "Montserrat-bold";
+  }
+  
+  
+ p{
+	color: White; 
+	 
+ }
+ 
+ 
+.content{
+    color: White;
+	padding-left: 20.0rem;
+	padding-right: 40.0rem;
+	
+}
+
+
+	
+   /*Navigation Bar */
+   
+  .navbar {
+    padding: 0 0 1.5rem;
+  }
+  
+  .navbar-brand {
+    font-family: Ubuntu;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-item {
+    padding: 0 5px;
+  }
+  
+  .nav-link {
+    font-size: 1.0rem;
+    font-family: Montserrat;
+  }
+  
+  /* Features */ 
+  
+  #features {
+    padding: 7% 15%;
+    font-size: 1.5rem;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .feature-box {
+    text-align: center;
+    padding: 5%;
+  }
+  
+  /* Dropdown Button */
+  .dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+  
+  /* Sections */
+  
+  #Society {
+    padding: 100px;
+    text-align: center;
+  }
+  
+  #Main {
+  
+    background-color: #131515;
+    color: Black;
+
+    text-align: right;
+    padding: 5% 15%;
+  }
+ 
+ #MainLeft {
+  
+    background-color: #131515;
+    color: Black;
+
+    text-align: left;
+    padding: 5% 15%;
+  } 
+  
+ #Wiki {
+	 
+ padding: 7% 15%;
+    font-size: 1.5rem;
+    background-color: white;
+    position: relative;
+     
+	 
+ }
+  
+
+  /* footer */
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #339989;
+    color: white;
+    text-align: center;
+  }
+  
+ 
